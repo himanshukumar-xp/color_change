@@ -48,3 +48,14 @@ Follow the steps below to set up and run the project locally:
 git clone https://github.com/himanshukumar-xp/color-changer.git
 cd color-changer
 ```
+```
+Code Snippet
+function getRandomColor() {
+  const hex = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+```
