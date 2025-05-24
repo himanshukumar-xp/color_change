@@ -11,3 +11,40 @@ A simple web application that allows users to dynamically change the background 
 
 ## 📁 Project Structure
 
+
+### `index.html`
+
+This file contains the structure of the web page. It includes:
+
+- A heading
+- A button to trigger the color change
+- A text span to show the current color code
+
+### `style.css`
+
+This file provides styling for the project:
+
+- Centered layout using Flexbox
+- Styling for the button and color code display
+- Smooth transitions for background color changes
+
+### `script.js`
+
+Handles the logic for:
+
+- Generating random color codes (hex format)
+- Applying the new color to the page background
+- Updating the displayed color code
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to set up and run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/himanshukumar-xp/color-changer.git
+cd color-changer
+```
