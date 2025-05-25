@@ -59,3 +59,5 @@ function getRandomColor() {
   return color;
 }
 ```
+Author : Himanshu Kumar
+
